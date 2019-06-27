@@ -1,10 +1,11 @@
 # Moodle - Filter Pod
-This is the version Beta 0.1 of moodle-mod_pod-filter. That means that this version is still in development and you might encounter bugs or issues that will not be present in the final version. 
+This is the version 1.1.0 of moodle-mod_pod-filter.
 
-Add a filter for urls of videos from pod and convert them to iframe to simplify the integration of videos in courses.
+Add a filter for urls of videos from Pod and convert them to iframe to simplify the integration of videos in courses.
 
 ## Description
-Pod is a video sharing platform. with the mod link that points to Pod video content are converted to a embed code. Here is a list of the types of link that can be converted :
+Pod is a video sharing platform.  
+With this mod, links that point to Pod video content are converted to an embed code. Here is a list of the types of link that can be converted :
 
 ```
 https://pod.univ.fr/video/test_video/
@@ -30,7 +31,7 @@ To install the mod follow these steps :
 * Download the mod as a Zip from this github repository.
 * Move the .zip archive to your 'filter' dir of your Moodle (Default path on Linux : /var/www/moodle/filter, on Widows : C:\server\moodle\filter)
 * Extract the archive. You should now have a folder named 'pod'.
-* Go to your moodle homepage and log into as a administrator.
+* Go to your moodle homepage and log into as an administrator.
 * Your moodle will automatically detect the new module. Follow the steps that will be shown.
 * Go to 'Site administration' -> 'Plugins' -> 'Filters' -> 'Manage filters'.
 * Find 'Pod' and change the 'Disabled' option to 'On'.
@@ -39,7 +40,7 @@ To install the mod follow these steps :
 
 ## Uninstall
 To uninstall the mod follow these steps :
-* Log into your moodle as a administrator.
+* Log into your moodle as an administrator.
 * Go to 'Site administration' -> 'Plugins' -> 'Filters' -> 'Manage filters'.
 * Find 'Pod' and click on 'Uninstall'. Follow the instructions.
 * The mod is now uninstalled.

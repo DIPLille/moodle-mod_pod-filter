@@ -19,14 +19,15 @@ defined('MOODLE_INTERNAL') || die();
 /**
  * Plugin details
  *
- * @package    filter
- * @subpackage pod
- * @copyright  2017 Joël Obled / Nicolas Can
- * @author     Obled Joel <joel.obled@univ-lille1.fr> / Nicolas Can <nicolas.can@univ-lille1.fr>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later / MIT / Public Domain
+ * @package		filter
+ * @subpackage	pod
+ * @author		Gaël Mifsud <gael.mifsud@univ-lille.fr> / Obled Joel <joel.obled@univ-lille1.fr> / Nicolas Can <nicolas.can@univ-lille1.fr>
+ * @copyright	2014-2020 DIP - Université de Lille
+ * @license 	http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later / MIT / Public Domain
  */
 
-$plugin->version   = 2017063000;         
-$plugin->requires  = 2016052300;        
-$plugin->release   = '1.0.8';       
 $plugin->component = 'filter_pod';
+$plugin->version   = 2019063000;
+$plugin->requires  = 2016052300;
+$plugin->release   = '1.1.0';
+$plugin->maturity  = MATURITY_STABLE;
